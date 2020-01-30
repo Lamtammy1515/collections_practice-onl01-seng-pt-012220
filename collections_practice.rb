@@ -19,6 +19,5 @@ end
 
 def swap_elements(names)
   names = ["blake", "ashley", "scott"]
-  names["ashley", "scott"]=["scott", "ashley"]
-  
+  name.swp(1,2)
 end 
