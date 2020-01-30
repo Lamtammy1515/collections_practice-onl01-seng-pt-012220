@@ -55,3 +55,5 @@ body.collect do |bod|
     end
   end
 end 
+
+add_s(["hand","feet", "knee", "table"])
