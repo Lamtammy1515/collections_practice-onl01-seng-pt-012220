@@ -36,4 +36,6 @@ def kesha_maker(names)
   return names
 end 
 
-def 
+def find_a(fruits)
+  friuts = 
+end 
