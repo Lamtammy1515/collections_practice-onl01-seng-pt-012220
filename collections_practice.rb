@@ -48,3 +48,5 @@ end
 
 def add_s(body)
 body = ["hand","feet", "knee", "table"]
+body.each do |bod|
+  
