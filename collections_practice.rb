@@ -31,7 +31,7 @@ end
 def kesha_maker(names)
   names = ["blake", "ashley", "scott"] 
   names.each do |name| 
-    name[3] = "$" 
+    name[2] = "$" 
   end 
   return names
   
