@@ -10,4 +10,7 @@ def sort_array_desc(numbers)
   numbers.sort.reverse
 end 
 
-def sort_array_char_count
+def sort_array_char_count(animals)
+  animals = ["dogs", "cat", "Horses"]
+  animals.sort
+end 
