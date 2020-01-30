@@ -16,3 +16,5 @@ def sort_array_char_count(animals)
     a.upcase <=> b.upcase 
     end
 end 
+
+def 
