@@ -12,5 +12,6 @@ end
 
 def sort_array_char_count(animals)
   animals = ["dogs", "cat", "Horses"]
-  animals.sort!
+  animals.split.sort_by { |e| -e.length }.group_by(&:length).map{ |_, v| v.sort.reverse }.flatten
+
 end 
