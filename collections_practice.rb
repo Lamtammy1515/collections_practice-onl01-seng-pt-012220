@@ -25,5 +25,5 @@ end
 
 def reverse_array(reversed)
   reversed = [12, 4, 35] 
-  reversed..reverse_each.to_a
+  reversed.reverse_each.to_a
 end 
