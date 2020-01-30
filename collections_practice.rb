@@ -46,9 +46,9 @@ def sum_array(num)
   num.reduce(&:+)
 end 
 
-def add_s(array)
-      array.each_with_index.collect do |word,index|
-        if index != 1 
+def add_s(adding)
+      adding.each_with_index.collect do |word,i|
+        if i != 1 
           word = word + "s"
         else
           word = word
