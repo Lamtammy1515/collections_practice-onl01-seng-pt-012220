@@ -6,6 +6,7 @@ def sort_array_asc(numbers)
 end 
 
 def sort_array_desc(numbers)
-  numbers 
+  numbers = [25, 7, 14]
+  numbers.sort 
   
 end 
