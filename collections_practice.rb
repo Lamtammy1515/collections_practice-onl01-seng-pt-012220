@@ -46,14 +46,12 @@ def sum_array(num)
   num.reduce(&:+)
 end 
 
-def add_s(body)
-body.collect do |bod|
-    if bod[1] == word
-      word
-    else
-      word + "s"
-    end
+def add_s_collect(array)
+      array.each_with_index.collect do |word,index|
+        if index != 1 
+          word = word + "s"
+        else
+          word = word
+        end
   end
-end 
-
-add_s(["hand","feet", "knee", "table"])
+end
