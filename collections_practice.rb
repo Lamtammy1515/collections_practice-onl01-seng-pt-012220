@@ -37,5 +37,6 @@ def kesha_maker(names)
 end 
 
 def find_a(fruits)
-  friuts = 
+  friuts = ["apple", "orange", "pear", "avis", "arlo", "ascot" ]
+  fruits
 end 
