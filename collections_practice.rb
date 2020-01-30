@@ -17,7 +17,7 @@ def sort_array_char_count(animals)
     end
 end 
 
-def swap_elements(names)
-  names = ["blake", "ashley", "scott"]
+def swap_elements(swp)
+  swp = ["blake", "ashley", "scott"]
   names.swp(1,2)
 end 
