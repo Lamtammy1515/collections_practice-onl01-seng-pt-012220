@@ -47,7 +47,7 @@ def sum_array(num)
 end 
 
 def add_s_collect(array)
-      arraycollect do |word|
+      array.collect do |word|
         if word.length > 1 
           word = word + "s"
         else
