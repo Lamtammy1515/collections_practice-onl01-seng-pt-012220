@@ -12,6 +12,7 @@ end
 
 def sort_array_char_count(animals)
   animals = ["dogs", "cat", "Horses"]
-  animals
-
+  animals.sort do |a,b| 
+    a.upcase <=> b.upcase 
+    end
 end 
