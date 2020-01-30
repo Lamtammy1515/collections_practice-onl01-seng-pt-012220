@@ -33,5 +33,6 @@ def kesha_maker(names)
   names.each do |name| 
     names[3] = $ 
   end 
+  return names
   
 end 
