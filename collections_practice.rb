@@ -49,6 +49,6 @@ end
 def add_s(body)
 body = ["hand","feet", "knee", "table"]
 body.each do |bod|
-  puts "#{bod}s"
+  print "#{bod}s"
 end 
 end 
