@@ -12,5 +12,5 @@ end
 
 def sort_array_char_count(animals)
   animals = ["dogs", "cat", "Horses"]
-  animals
+  animals.sort!
 end 
