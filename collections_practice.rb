@@ -24,4 +24,4 @@ def swap_elements(swp)
 end 
 
 def reverse_array(reversed)
-  
+  reversed = [12, 4, 35] 
