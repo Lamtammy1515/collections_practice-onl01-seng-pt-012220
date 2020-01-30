@@ -38,5 +38,5 @@ end
 
 def find_a(fruits)
   friuts = ["apple", "orange", "pear", "avis", "arlo", "ascot" ]
-  fruits
+  fruits.select {|word| word.start_with?('a')}
 end 
