@@ -41,6 +41,7 @@ def find_a(fruits)
   fruits.select {|word| word.start_with?('a')}
 end 
 
-def sum_array
+def sum_array(num)
+  num = [11,4,7,8,9,100,134]
   
 end 
