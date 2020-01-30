@@ -41,4 +41,6 @@ def find_a(fruits)
   fruits.select {|word| word.start_with?('a')}
 end 
 
-def 
+def sum_array
+  
+end 
