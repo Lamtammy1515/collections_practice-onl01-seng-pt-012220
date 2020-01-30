@@ -28,6 +28,8 @@ def reverse_array(reversed)
   reversed.reverse
 end 
 
-def kesha_maker
+def kesha_maker(names)
+  names = ["blake", "ashley", "scott"] 
+  
   
 end 
