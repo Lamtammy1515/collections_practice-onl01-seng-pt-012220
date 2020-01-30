@@ -17,4 +17,6 @@ def sort_array_char_count(animals)
     end
 end 
 
-def 
+def swap_elements
+  
+end 
