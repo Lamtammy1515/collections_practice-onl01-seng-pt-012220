@@ -43,5 +43,5 @@ end
 
 def sum_array(num)
   num = [11,4,7,8,9,100,134]
-  
+  num.reduce(&:+)
 end 
