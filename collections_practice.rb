@@ -27,3 +27,7 @@ def reverse_array(reversed)
   reversed = [12, 4, 35] 
   reversed.reverse
 end 
+
+def kesha_maker
+  
+end 
