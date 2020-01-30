@@ -47,8 +47,8 @@ def sum_array(num)
 end 
 
 def add_s_collect(array)
-      array.each_with_index.collect do |word,index|
-        if index != 1 
+      arraycollect do |word|
+        if word.length > 1 
           word = word + "s"
         else
           word = word
