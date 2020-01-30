@@ -34,5 +34,6 @@ def kesha_maker(names)
     name[2] = "$" 
   end 
   return names
-  
 end 
+
+def 
