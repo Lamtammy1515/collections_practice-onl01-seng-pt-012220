@@ -10,4 +10,4 @@ def sort_array_desc(numbers)
   numbers.sort.reverse
 end 
 
-def 
+def sort_array_char_count
