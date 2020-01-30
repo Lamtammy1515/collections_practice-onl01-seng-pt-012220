@@ -23,4 +23,5 @@ def swap_elements(swp)
   return swp
 end 
 
-def 
+def reverse_array(reversed)
+  
