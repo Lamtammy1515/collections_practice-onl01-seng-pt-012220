@@ -47,7 +47,6 @@ def sum_array(num)
 end 
 
 def add_s(body)
-body = ["hand","feet", "knee", "table"]
 body.collect do |bod|
     if bod[1] == word
       word
