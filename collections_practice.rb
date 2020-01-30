@@ -22,3 +22,5 @@ def swap_elements(swp)
   swp[1], swp[2] = swp[2], swp[1]
   return swp
 end 
+
+def 
