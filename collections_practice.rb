@@ -56,4 +56,3 @@ body.collect do |bod|
     end
   end
 end 
-end 
