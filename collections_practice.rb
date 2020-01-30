@@ -30,6 +30,7 @@ end
 
 def kesha_maker(names)
   names = ["blake", "ashley", "scott"] 
-  
+  names.each do |name| 
+    names
   
 end 
