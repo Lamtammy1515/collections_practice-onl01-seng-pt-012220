@@ -21,3 +21,4 @@ def sort_array_char_count(animals)
     -1
   end
 end 
+end 
