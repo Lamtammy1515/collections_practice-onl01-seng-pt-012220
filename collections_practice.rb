@@ -48,6 +48,12 @@ end
 
 def add_s(body)
 body = ["hand","feet", "knee", "table"]
-
+body.collect do |bod|
+    if bod[1] == word
+      word
+    else
+      word + "s"
+    end
+  end
 end 
 end 
